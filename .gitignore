@@ -1,7 +1,5 @@
 .vs/
 *.sln
-*.csproj
 *.DS_Store
 BlueSTSDKBinding/bin/
-BlueSTSDKBinding/obj
-BlueSTSDKBinding/Properties
+BlueSTSDKBinding/obj/
