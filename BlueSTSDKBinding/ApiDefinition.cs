@@ -2219,7 +2219,7 @@ namespace BlueSTSDK
     // @interface BlueSTSDK_Swift_428 (BlueSTSDKManager) <CBCentralManagerDelegate>
     [Category]
     [BaseType(typeof(BlueSTSDKManager))]
-    interface BlueSTSDKManager_BlueSTSDK_Swift_428
+    interface BlueSTSDKManager_BlueSTSDK_Swift_428 //: ICBCentralManagerDelegate
     {
         // -(void)centralManager:(CBCentralManager * _Nonnull)central didDiscoverPeripheral:(CBPeripheral * _Nonnull)peripheral advertisementData:(NSDictionary<NSString *,id> * _Nonnull)advertisementData RSSI:(NSNumber * _Nonnull)RSSI;
         [Export("centralManager:didDiscoverPeripheral:advertisementData:RSSI:")]
